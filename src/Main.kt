@@ -67,9 +67,10 @@ obtenido al comparar si el tiempo del objeto que recibe el mensaje es menor que 
 
 
 fun main() {
-    val tiempo = Tiempo(0,0,69512)
-
-    tiempo.modificarTiempo()
-
+    val tiempo = Tiempo(0,0,47586)
+    println(tiempo)
+    tiempo.incrementar(tiempo)
+    println(tiempo)
+    tiempo.decrementar(tiempo)
     println(tiempo)
 }
